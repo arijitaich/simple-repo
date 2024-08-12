@@ -2,6 +2,8 @@ import sys
 import os
 import subprocess
 
+
+
 def inred(s):
 	return"%s[31;2m%s%s[0m"%(chr(27), s, chr(27))
 
